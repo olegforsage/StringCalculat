@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 public class StringCalc {
 
     private static String PATTERN_STRINGS = "(\")([\\w\\s\\W]{0,10})(\")(\\s+)([+-])(\\s+)(\")([\\w\\s\\W]{0,10})(\")";
-    private static String PATTERN_STRING_DIGIT = "(\")([\\w\\s\\W]{0,10})(\")(\\s+)([\\\\*/])(\\s+)(\\d{0,10})";
+    private static String PATTERN_STRING_DIGIT = "(\")([\\w\\s\\W]{0,10})(\")(\\s+)([\\\\*/])(\\s+)(\\d|10)";
 
     public static void main(String[] args) throws Exception {
 
